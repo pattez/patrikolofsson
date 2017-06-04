@@ -5,3 +5,4 @@
 5. Fix contact form. I.e success message will appear even without a successful message sent.
 6. Random error message in chrome developer tools. I.e "GET https://patrikolofsson.se/newweb/someurl.. 404 ()".
 7. Hash url for each page. I.e User should be able to copy & send a link and get directed to the correct page, right now SPA starts always at "Home"
+8. README file on github.

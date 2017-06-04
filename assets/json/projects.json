@@ -1,28 +1,34 @@
 {
   "project": [
     {
-      "id": 4,
+      "id": 5,
       "title": "Space shooter",
       "description": "På Thorildsplans gymnasium läste Patrik kurser såsom programmering. Därav utveckalde Patrik ett 2D-animerat spel som gymnasiearbete som skulle bidra till kunskaper inom programmering och planering.",
       "url": "assets/img/Spaceshooter.png"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Activity Monitor",
       "description": "Stressad, lat, glömsam eller helt enkelt vill ha saker och ting i ditt liv organiserat? Isåfall är Activity Monitor en app för dig! Activity Monitor låter dig spåra dina aktiviteter i ditt vardagliga liv",
       "url": "assets/img/ActivityMonitor.png"
     },
     {
-      "id": 1,
-      "title": "patrikolofsson.se/old webbplats",
+      "id": 2,
+      "title": "https://patrikolofsson.se/old/ webbplats",
       "description": "Patrik skapad webbplatsen för att ha ett online-portfolio!",
       "url": "assets/img/hemsidabild.png"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Jump and stuff - Grupp-projekt Nackademin Java 15, Spel utvecklat i JavaFX",
       "description": "Jump and stuff är ett spel utvecklat i JavaFX, du använder piltangenterna för att hoppa och ducka. Du har tre liv och hastigheten ökar efter varje hinder! Målet är att få så högt poäng som möjligt!",
       "url": "assets/img/gruppprojekt.png"
+    },
+    {
+      "id": 1,
+      "title": "https://patrikolofsson.se/ webbplats",
+      "description": "Ny Portfolio variant. HTML, React.js, PHP, CSS.",
+      "url": "assets/img/patrikolofssonnew.jpg"
     }
   ]
 }
