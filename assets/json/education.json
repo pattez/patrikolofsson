@@ -1,0 +1,30 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "title": "Programutvecklare Java",
+      "school": "Nackademin AB Yrkeshögskola",
+      "date": "Aug 2015 – Jun 2017",
+      "description": [
+        {
+          "id": 1,
+          "text": "Data & IT. Kurser såsom programmering, webutveckling, databashantering med fokus i Java.",
+          "edId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teknikprogrammet(TE), Information- och Medieteknik",
+      "school": "Thorildsplans gymnasium",
+      "date": "Aug 2011 - Jun 2014",
+      "description": [
+        {
+          "id": 1,
+          "text": "Data & IT. Kurser såsom programmering, webutveckling, nätverksteknik. Gymnasiearbete där jag gjorde ett dator-spel i XNA C#.",
+          "edId": 2
+        }
+      ]
+    }
+    ]
+}

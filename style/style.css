@@ -1,0 +1,276 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+body {
+    margin: 0;
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 440px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    padding-top: 1%;
+
+}
+
+.header .title {
+    width: 48%;
+    font-size: 1.1vw;
+    float: left;
+    padding-left: 2%;
+    color: black;
+    height: 100%;
+}
+
+.header .menu {
+    float: right;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    color: white;
+    font-size: 1.1vw;
+    height: 100%;
+}
+
+.header .name {
+    top: 25%;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-size: 4vw;
+    width: 100%;
+    pointer-events: none;
+}
+
+.header .info {
+    font-size: 1.3vw;
+    top: 30%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+}
+
+.header .menu li {
+    display: inline-block;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+.header .menu li:hover {
+    color: gray;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.main .projects #title {
+    text-align: center;
+
+}
+
+.experiences {
+    height: 100%;
+    width: 100%;
+}
+
+.workExperience {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.mobileHeader {
+    display: none;
+}
+
+.education {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.header .topBar {
+    width: 100%;
+    height: 10%;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+}
+
+.block .inner {
+    width: 60%;
+    height: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.main .block .inner .text {
+    width: 100%;
+    float: left;
+    line-height: 2.9vw;
+    position: relative;
+}
+
+.main .block .one {
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+
+.main .block .two {
+    width: 35%;
+    float: left;
+    height: 100%;
+    padding-left: 5%;
+}
+
+.main .block .two .img {
+    background: no-repeat;
+    height: 100%;
+    width: 75%;
+    background-size: 100% auto;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    height: 30px;
+}
+
+.list {
+    width: 100%;
+    height: 700px;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.projects {
+    width: 100%;
+    height: 100%;
+
+}
+
+.project {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.project #title {
+    font-size: 1.7vw;
+}
+
+.project #description {
+    padding-top: 10px;
+}
+
+.project img {
+    width: 350px;
+    height: 200px;
+    padding-top: 30px;
+}
+
+hr {
+    margin-top: 5%;
+}
+
+.mailTo_form {
+    padding-right: 20%;
+    padding-left: 20%;
+    width: 60%;
+    height: 600px;
+}
+
+.mailTo_form input {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+
+    font-size: 1.1vw;
+}
+
+.mailTo_form #name input{
+    width: 100%;
+}
+
+.mailTo_form #email input{
+    width: 100%;
+}
+
+.mailTo_form #message input{
+    width: 100%;
+}
+
+.mailTo_form #name {height: 20%;}
+.mailTo_form #email {height: 20%;}
+.mailTo_form #message {height: 20%;}
+.mailTo_form #button {
+    height: 10%;
+    width: 12%;
+    float: left;
+}
+
+.mailTo_form #button input {
+    border: 1px groove black;
+    width: 100%;
+    height: 100%;
+    background: none;
+    cursor: pointer;
+}
+
+.mailTo_form #button input:hover {
+    background-color: gray;
+}
+
+.mailTo_form .response {
+    float: left;
+    width: 40%;
+    padding-left: 5%;
+    height: 10%;
+}
+
+.mailTo_form .response #success {
+     display: none;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.mailTo_form .response #failure {
+    display: none;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.education #title {  font-weight: bold;  }
+.workExperience #title {  font-weight: bold;  }
+.experiences .block .inner .two .title {text-decoration: underline}
+.experiences .block .inner .one .title {text-decoration: underline}
+
+.respmenu {
+    display: none;
+}
+
+
+
+

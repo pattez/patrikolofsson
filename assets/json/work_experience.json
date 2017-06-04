@@ -1,0 +1,151 @@
+{
+  "workExperience": [
+    {
+      "id": 1,
+      "title": "Utvecklare, Lia 2 (Lärande i arbete), OnSpotStory AB",
+      "date": "2017",
+      "description": [
+        {
+          "id": 1,
+          "text": "Javascript: React, JQuery, Node.js Express",
+          "workExpId": 1
+        },
+        {
+          "id": 2,
+          "text": "Databashantering: MySQL",
+          "workExpId": 1
+        },
+        {
+          "id": 3,
+          "text": "Fortsatt utveckling av Platsminnen.se",
+          "workExpId": 1
+        },
+        {
+          "id": 4,
+          "text": "Fortsatt utveckling OnSpotStory CMS(Content Management System)",
+          "workExpId": 1
+        },
+        {
+          "id": 5,
+          "text": "Facebook api",
+          "workExpId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Utvecklare, Lia 1 (Lärande i arbete), OnSpotStory AB",
+      "date": "2016",
+      "description": [
+        {
+          "id": 1,
+          "text": "Javascript: React, JQuery, Node.js Express",
+          "workExpId": 2
+        },
+        {
+          "id": 2,
+          "text": "Databashantering: MySQL",
+          "workExpId": 2
+        },
+        {
+          "id": 3,
+          "text": "Utvecklade template för OnSpotStory front webbplats",
+          "workExpId": 2
+        },
+        {
+          "id": 4,
+          "text": "Utvecklade OnSpotStory CMS(Content Management System)",
+          "workExpId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lärarvikarie, anställning vid behov, Senus Studieförbund, Stockholm",
+      "date": "2015",
+      "description": [
+          {
+            "id": 1,
+            "text": "Vikarierade vid behov som datalärare för människor med nedsatt syn",
+            "workExpId": 3
+          },
+          {
+            "id": 2,
+            "text": "Lärde ut funktioner och användbara program på datorn",
+            "workExpId": 3
+          },
+          {
+            "id": 3,
+            "text": "Svarade på frågor eleverna hade om sina uppgiter",
+            "workExpId": 3
+          }
+        ]
+    },
+    {
+      "id": 4,
+      "title": "Byggnadsarbetare, sommarjobb, M Plåt & Fasad, Stockholm",
+      "date": "2011",
+      "description": [
+        {
+          "id": 1,
+          "text": "Isolerade byggnaders fasad",
+          "workExpId": 4
+        },
+        {
+          "id": 2,
+          "text": "Monterade hängrännor och stuprör",
+          "workExpId": 4
+        },
+        {
+          "id": 3,
+          "text": "Arbetade med tunnplåt i form av takplåt",
+          "workExpId": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Butiksmedarbetare, praktik, Siba AB, Stockholm",
+      "date": "2011",
+      "description": [
+        {
+          "id": 1,
+          "text": "Sorterade och plockade varor från lager",
+          "workExpId": 5
+        },
+        {
+          "id": 2,
+          "text": "Hjälpte till i kassan",
+          "workExpId": 5
+        },
+        {
+          "id": 3,
+          "text": "Orienterade kunder",
+          "workExpId": 5
+        }
+        ]
+    },
+    {
+      "id": 6,
+      "title": "Butiksmedarbetare, praktik, M@trix Internet Café, Stockholm",
+      "date": "2009",
+      "description": [
+          {
+            "id": 1,
+            "text": "Sorterade och plockade varor",
+            "workExpId": 6
+          },
+          {
+            "id": 2,
+            "text": "Hjälpte till i kassan",
+            "workExpId": 6
+          },
+          {
+            "id": 3,
+            "text": "Hjälpte kunder om det var något fel med deras dator",
+            "workExpId": 6
+          }
+        ]
+      }
+  ]
+}
