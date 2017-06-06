@@ -1,22 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-@import url(https://fonts.googleapis.com/css?family=Candal);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
+
+
+html {
+    height: 100vh;
+}
+
 body {
+    font-family: Montserrat;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body > div, body > div > div {
+    height: 100%;
+}
+
+
+/*body {
     margin: 0;
     font-family: Montserrat;
     overflow-x: hidden;
-}
+}*/
 
 .header {
     width: 100%;
-    height: 440px;
+/*    height: 440px;*/
+    height: 44%;
     color: white;
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center center;
-    padding-top: 1%;
+   /* padding-top: 1%;*/
+/*    padding-top: 15px;*/
 
 }
 
@@ -39,6 +57,8 @@ body {
     height: 100%;
 }
 
+.header .mobile_menu {display: none;}
+
 .header .name {
     top: 25%;
     position: relative;
@@ -58,6 +78,8 @@ body {
     color: rgb(255, 255, 255);
     pointer-events: none;
 }
+
+
 
 .header .menu li {
     display: inline-block;
@@ -103,6 +125,7 @@ body {
 .header .topBar {
     width: 100%;
     height: 10%;
+    padding-top: 1%
 }
 
 .block {
@@ -138,23 +161,36 @@ body {
 }
 
 .main .block .two .img {
-    background: no-repeat;
+/*    background: no-repeat;
     height: 100%;
     width: 75%;
-    background-size: 100% auto;
+    background-size: 100% auto;*/
+    height: 90%;
+    width: 90%;
+    background-size: cover;
+    background: no-repeat center;
 }
 
 .footer {
     width: 100%;
     background-color: black;
-    height: 30px;
+    height: 5%;
+}
+
+.contact {
+    height: 100%;
+    width: 100%;
 }
 
 .list {
     width: 100%;
-    height: 700px;
-    padding-top: 4%;
-    padding-bottom: 1%;
+/*    height: 700px;*/
+/*    height: calc(100% - 455px);*/
+    height: 48%;
+    padding-top: 2%;
+/*    padding-top: 4%;
+    padding-bottom: 1%;*/
+
 }
 
 .projects {
@@ -191,7 +227,7 @@ hr {
     padding-right: 20%;
     padding-left: 20%;
     width: 60%;
-    height: 600px;
+    height: 100%;
 }
 
 .mailTo_form input {
@@ -214,9 +250,9 @@ hr {
     width: 100%;
 }
 
-.mailTo_form #name {height: 20%;}
-.mailTo_form #email {height: 20%;}
-.mailTo_form #message {height: 20%;}
+.mailTo_form #name {height: 25%;}
+.mailTo_form #email {height: 25%;}
+.mailTo_form #message {height: 25%;}
 .mailTo_form #button {
     height: 10%;
     width: 12%;
@@ -269,6 +305,20 @@ hr {
 
 .respmenu {
     display: none;
+}
+
+.experience_list {
+    height: auto;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.project_list {
+    height: auto;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 1%;
 }
 
 

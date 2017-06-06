@@ -1,6 +1,6 @@
 
 @media only screen
-and (max-width: 720px) {
+and (max-width: 1139px) {
     .header .topBar {
         width: 100%;
         height: 45px;
@@ -9,10 +9,11 @@ and (max-width: 720px) {
         left: 0;
         color: black;
         display: inline-block;
-        padding-top: 5px;
+        margin-top: 10px;
+        padding-top: 0;
     }
 
-    .topBar .menu {
+    .topBar .mobile_menu {
         display: inline-block;
         color: black;
 
@@ -23,6 +24,7 @@ and (max-width: 720px) {
         float: left;
         padding-left: 4%;
         color: black;
+        color: black;
         height: 100%;
         margin-top: 5px;
         position: relative;
@@ -30,16 +32,20 @@ and (max-width: 720px) {
     }
 
     .header {
-        margin-top: 55px;
+        margin-top: 60px;
         background-size: cover;
-        height: 300px;
         background-position: center;
+        z-index: 1;
     }
 
     .respmenu {
         width: 50%;
         float: left;
         display: inline-block;
+    }
+
+    .header .menu {
+        display: none;
     }
 
     .respmenu .text {
@@ -55,15 +61,11 @@ and (max-width: 720px) {
     }
 
     .header .info {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .header .name {
-        font-size: 40px;
-    }
-
-    .list {
-        height: 300px;
+        font-size: 70px;
     }
 
     .education {
@@ -86,7 +88,27 @@ and (max-width: 720px) {
         font-size: unset;
     }
 
-    .header .menu li {
+    .main .block .one {
+        width: 35%;
+        float: left;
+        height: 100%;
+    }
+
+    .main .block .two .img {
+        height: 75%;
+        width: 100%;
+        background: no-repeat center;
+        background-size: cover;
+    }
+
+    .main .block .two {
+        width: 60%;
+        float: left;
+        height: 100%;
+        padding-left: 5%;
+    }
+
+    .header .mobile_menu li {
         cursor: pointer;
         padding-bottom: 3%;
         padding-right: 0;
@@ -94,7 +116,7 @@ and (max-width: 720px) {
         padding-top: 3%;
     }
 
-    .header .menu {
+    .header .mobile_menu {
         display: none;
         width: 100%;
         background-color: #FFF;
@@ -105,6 +127,12 @@ and (max-width: 720px) {
         font-size: unset;
         text-align: unset;
         border-top: 1px solid black;
+        z-index: 2;
+        position: relative;
+    }
+
+    .list {
+        padding-top: 5%;
     }
 
     .experiences .block .inner .two .title {font-size: unset; }
@@ -112,7 +140,7 @@ and (max-width: 720px) {
 
     .project img {
         width: 100%;
-        height: 100px;
+        height: 250px;
         padding-top: 30px;
     }
 

@@ -34,7 +34,7 @@ var Application = React.createClass({
 var Header = React.createClass({
     responsiveHeader: function () {
         if(window.matchMedia("(max-width:720px)")) {
-            var div = document.getElementById('menu');
+            var div = document.getElementById('mobile_menu');
             div.style.display = div.style.display == "inline-block" ? "none" : "inline-block";
         }
     },
@@ -44,7 +44,7 @@ var Header = React.createClass({
         this.props.setPage(value);
         var mq = window.matchMedia("(max-width:720px)");
         if(mq.matches) {
-            var div = document.getElementById('menu');
+            var div = document.getElementById('mobile_menu');
             div.style.display = "none";
         }
 
@@ -62,31 +62,31 @@ var Header = React.createClass({
             case 0:
                 title = "Patrik Olofsson";
                 info = "Webb, android & java utveckling";
-                if(mq.matches) {
-                    $(".list").height("300px");
-                } else {
-                    $(".list").height("700px");
-                }
+    /*                if(mq.matches) {
+                        $(".list").height("300px");
+                    } else {
+                        $(".list").height("700px");
+                    }*/
                 break;
             case 1:
                 title = "Om";
                 info = "Utbildning & Arbetslivserfarenhet";
-                $(".list").height("auto");
+
                 break;
             case 2:
                 title = "Projekt";
                 info = "Stora som små";
-                $(".list").height("auto");
+
                 break;
             case 3:
                 title = "Kontakta mig";
                 info = "Kontakta mig!";
 
-                if(mq.matches) {
+/*                if(mq.matches) {
                     $(".list").height("300px");
                 } else {
                     $(".list").height("700px");
-                }
+                }*/
                 break;
         }
 
@@ -101,6 +101,12 @@ var Header = React.createClass({
                  <div className="title">{name}</div>
                  <div className="respmenu" id="respmenu">
                      <div className="hamburger" id="hamburger" onClick={this.responsiveHeader}> <img id="icon_menu" src="assets/img/1496606738_menu-alt.svg"/></div>
+                 </div>
+                 <div className="mobile_menu" id="mobile_menu">
+                     <li value="0" onClick={this.onChangePage}>{home}</li>
+                     <li value="1" onClick={this.onChangePage}>{about}</li>
+                     <li value="2" onClick={this.onChangePage}>{project}</li>
+                     <li value="3" onClick={this.onChangePage}>{contact}</li>
                  </div>
                  <div className="menu" id="menu">
                      <li value="0" onClick={this.onChangePage}>{home}</li>
@@ -119,22 +125,24 @@ var Header = React.createClass({
 var List = React.createClass({
    render: function () {
        var list = "";
-
+       var class_ = "list";
         if(this.props.page === 0) {
            list =  <Main/>;
         }
         else if(this.props.page === 1) {
             list = <Experiences/>;
+            class_ = "experience_list";
         }
         else if(this.props.page === 2) {
-            list = <Projects project={this.props.project}/>
+            list = <Projects project={this.props.project}/>;
+            class_ = "project_List";
         }
         else if(this.props.page === 3) {
             list = <Contact/>;
         }
 
        return (
-           <div className="list">
+           <div className={class_}>
                {list}
            </div>
        )
@@ -161,6 +169,7 @@ var Main = React.createClass({
                             <div className="img" style={style}>
 
                             </div>
+                {/*            <img src={path}/>*/}
                         </div>
                     </div>
                </div>
