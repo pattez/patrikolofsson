@@ -89,7 +89,7 @@ and (max-width: 1139px) {
     }
 
     .main .block .one {
-        width: 35%;
+        width: 45%;
         float: left;
         height: 100%;
     }
@@ -102,7 +102,7 @@ and (max-width: 1139px) {
     }
 
     .main .block .two {
-        width: 60%;
+        width: 50%;
         float: left;
         height: 100%;
         padding-left: 5%;
