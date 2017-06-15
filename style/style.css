@@ -173,7 +173,7 @@ body > div, body > div > div {
 
 .footer {
     width: 100%;
-    background-color: black;
+
     height: 5%;
 }
 
@@ -234,8 +234,8 @@ hr {
     border-right: none;
     border-left: none;
     border-top: none;
-
-    font-size: 1.1vw;
+    box-shadow: none;
+    font-size: 20px;
 }
 
 .mailTo_form #name input{

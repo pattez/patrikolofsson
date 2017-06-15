@@ -1,10 +1,10 @@
 2. Add english as a language choice for the website.
-3. More onto responsive site, i.e mobile.
-    3.1 Contact form.
-5. Fix contact form. I.e success message will appear even without a successful message sent.
 6. Random error message in chrome developer tools. I.e "GET https://patrikolofsson.se/newweb/someurl.. 404 ()".
 7. Hash url for each page. I.e User should be able to copy & send a link and get directed to the correct page, right now SPA starts always at "Home"
 8. README file on github.
 9. Find a sweet spot for img, I.e between 900 and 670 width.
 10. Add github links to projects.
 11. Clean up shit in LE CODE.
+
+
+

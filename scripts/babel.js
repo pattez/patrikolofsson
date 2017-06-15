@@ -33,19 +33,21 @@ var Application = React.createClass({
 
 var Header = React.createClass({
     responsiveHeader: function () {
-        if(window.matchMedia("(max-width:720px)")) {
+        if(window.matchMedia("(max-width:1139px)")) {
             var div = document.getElementById('mobile_menu');
-            div.style.display = div.style.display == "inline-block" ? "none" : "inline-block";
+            div.style.display = div.style.display === "inline-block" ? "none" : "inline-block";
+            console.log("responsiveHeader");
         }
     },
     onChangePage: function (e) {
         e.preventDefault();
         var value = e.target.value;
         this.props.setPage(value);
-        var mq = window.matchMedia("(max-width:720px)");
+        var mq = window.matchMedia("(max-width:1139px)");
         if(mq.matches) {
             var div = document.getElementById('mobile_menu');
             div.style.display = "none";
+            console.log("onChangePage");
         }
 
     /*    console.log(value);*/
@@ -53,20 +55,14 @@ var Header = React.createClass({
     render: function () {
         var path = "assets/img/laptop3.jpeg";
         var style = {backgroundImage: "url("+path+")"};
-        var path2 = "assets/img/1496606738_menu-alt.svg";
         var title = "";
         var info = "";
-        var mq = window.matchMedia("(max-width:720px)");
+
 
         switch (this.props.page) {
             case 0:
                 title = "Patrik Olofsson";
                 info = "Webb, android & java utveckling";
-    /*                if(mq.matches) {
-                        $(".list").height("300px");
-                    } else {
-                        $(".list").height("700px");
-                    }*/
                 break;
             case 1:
                 title = "Om";
@@ -76,17 +72,10 @@ var Header = React.createClass({
             case 2:
                 title = "Projekt";
                 info = "Stora som små";
-
                 break;
             case 3:
                 title = "Kontakta mig";
                 info = "Kontakta mig!";
-
-/*                if(mq.matches) {
-                    $(".list").height("300px");
-                } else {
-                    $(".list").height("700px");
-                }*/
                 break;
         }
 
@@ -429,13 +418,13 @@ var Contact = React.createClass({
             <div className="contact">
                 <form className="mailTo_form" onSubmit={this.onMailSubmit}>
                     <div id="name">
-                        <input type="text" placeholder="Namn" id="input_name" />
+                        <input type="text" placeholder="Namn" id="input_name" required/>
                     </div>
                     <div id="email">
-                        <input type="email" placeholder="E-mail" id="input_email" />
+                        <input type="email" placeholder="E-mail" id="input_email" required/>
                     </div>
                     <div id="message">
-                        <input type="text" placeholder="Meddelande" id="input_message" />
+                        <input type="text" placeholder="Meddelande" id="input_message" required />
                     </div>
                     <div id="button">
                         <input type="submit" value="Skicka"/>

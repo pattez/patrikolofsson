@@ -149,6 +149,19 @@ and (max-width: 1139px) {
         font-weight: bold;
     }
 
+    .mailTo_form #button {  width: 45%; height: 15%; }
+
+    .mailTo_form .response #failure {  left: 50%; }
+    .mailTo_form .response #success  { left: 50%; }
+    .mailTo_form input {font-size: 20px;}
+    .mailTo_form {
+        padding-right: 5%;
+        padding-left: 5%;
+        width: 90%;  }
+
+
+
+
 }
 
 @media (max-width: 296px) {
