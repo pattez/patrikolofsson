@@ -2,150 +2,338 @@
   "workExperience": [
     {
       "id": 1,
-      "title": "Utvecklare, Lia 2 (Lärande i arbete), OnSpotStory AB",
       "date": "2017",
-      "description": [
+      "language": [
         {
-          "id": 1,
-          "text": "Javascript: React, JQuery, Node.js Express",
-          "workExpId": 1
+          "language_id": 0,
+          "title": "Utvecklare, Lia 2 (Lärande i arbete), OnSpotStory AB",
+          "description": [
+            {
+              "id": 1,
+              "text": "Javascript: React, JQuery, Node.js Express",
+              "workExpId": 1
+            },
+            {
+              "id": 2,
+              "text": "Databashantering: MySQL",
+              "workExpId": 1
+            },
+            {
+              "id": 3,
+              "text": "Vidareutveckling av Platsminnen.se",
+              "workExpId": 1
+            },
+            {
+              "id": 4,
+              "text": "Vidareutveckling av OnSpotStory CMS(Content Management System)",
+              "workExpId": 1
+            },
+            {
+              "id": 5,
+              "text": "Facebook api",
+              "workExpId": 1
+            }
+          ]
         },
         {
-          "id": 2,
-          "text": "Databashantering: MySQL",
-          "workExpId": 1
-        },
-        {
-          "id": 3,
-          "text": "Fortsatt utveckling av Platsminnen.se",
-          "workExpId": 1
-        },
-        {
-          "id": 4,
-          "text": "Fortsatt utveckling OnSpotStory CMS(Content Management System)",
-          "workExpId": 1
-        },
-        {
-          "id": 5,
-          "text": "Facebook api",
-          "workExpId": 1
+          "language_id": 1,
+          "title": "Developer, Internship 2, OnSpotStory AB",
+          "description": [
+            {
+              "id": 1,
+              "text": "Javascript: React, JQuery, Node.js Express",
+              "workExpId": 1
+            },
+            {
+              "id": 2,
+              "text": "Database Management: MySQL",
+              "workExpId": 1
+            },
+            {
+              "id": 3,
+              "text": "Continued development Platsminnen.se",
+              "workExpId": 1
+            },
+            {
+              "id": 4,
+              "text": "Continued development OnSpotStory CMS(Content Management System)",
+              "workExpId": 1
+            },
+            {
+              "id": 5,
+              "text": "Facebook api",
+              "workExpId": 1
+            }
+          ]
         }
       ]
     },
     {
       "id": 2,
-      "title": "Utvecklare, Lia 1 (Lärande i arbete), OnSpotStory AB",
       "date": "2016",
-      "description": [
+      "language": [
         {
-          "id": 1,
-          "text": "Javascript: React, JQuery, Node.js Express",
-          "workExpId": 2
+          "language_id": 0,
+          "title": "Utvecklare, Lia 1 (Lärande i arbete), OnSpotStory AB",
+          "description": [
+            {
+              "id": 1,
+              "text": "Javascript: React, JQuery, Node.js Express",
+              "workExpId": 2
+            },
+            {
+              "id": 2,
+              "text": "Databashantering: MySQL",
+              "workExpId": 2
+            },
+            {
+              "id": 3,
+              "text": "Utvecklade template för OnSpotStory front webbplats",
+              "workExpId": 2
+            },
+            {
+              "id": 4,
+              "text": "Utvecklade OnSpotStory CMS(Content Management System)",
+              "workExpId": 2
+            }
+          ]
         },
         {
-          "id": 2,
-          "text": "Databashantering: MySQL",
-          "workExpId": 2
-        },
-        {
-          "id": 3,
-          "text": "Utvecklade template för OnSpotStory front webbplats",
-          "workExpId": 2
-        },
-        {
-          "id": 4,
-          "text": "Utvecklade OnSpotStory CMS(Content Management System)",
-          "workExpId": 2
+          "language_id": 1,
+          "title": "Developer, Internship 1, OnSpotStory AB",
+          "description": [
+            {
+              "id": 1,
+              "text": "Javascript: React, JQuery, Node.js Express",
+              "workExpId": 2
+            },
+            {
+              "id": 2,
+              "text": "Database Management: MySQL",
+              "workExpId": 2
+            },
+            {
+              "id": 3,
+              "text": "Developed template for OnSpotStory front website",
+              "workExpId": 2
+            },
+            {
+              "id": 4,
+              "text": "Developed OnSpotStory CMS(Content Management System)",
+              "workExpId": 2
+            }
+          ]
         }
       ]
     },
     {
       "id": 3,
-      "title": "Lärarvikarie, anställning vid behov, Senus Studieförbund, Stockholm",
       "date": "2015",
-      "description": [
+      "language": [
+        {
+          "language_id": 0,
+          "title": "Lärarvikarie, anställning vid behov, Sensus Studieförbund, Stockholm",
+          "description": [
+            {
+              "id": 1,
+              "text": "Vikarierade vid behov som datalärare för människor med nedsatt syn",
+              "workExpId": 3
+            },
+            {
+              "id": 2,
+              "text": "Lärde ut funktioner och användbara program på datorn",
+              "workExpId": 3
+            },
+            {
+              "id": 3,
+              "text": "Svarade på frågor eleverna hade om sina uppgifter",
+              "workExpId": 3
+            }
+          ]
+      },
+      {
+        "language_id": 1,
+        "title": "Substitute teacher, temporary employment when needed, Sensus Studieförbund, Stockholm",
+        "description": [
           {
             "id": 1,
-            "text": "Vikarierade vid behov som datalärare för människor med nedsatt syn",
+            "text": "Temporary employed when needed as a substitute teacher for a computer class for people with low vision",
             "workExpId": 3
           },
           {
             "id": 2,
-            "text": "Lärde ut funktioner och användbara program på datorn",
+            "text": "Taught functions and useful programs",
             "workExpId": 3
           },
           {
             "id": 3,
-            "text": "Svarade på frågor eleverna hade om sina uppgiter",
+            "text": "Answered students questions about their assignements",
             "workExpId": 3
           }
         ]
+      }
+    ]
     },
     {
       "id": 4,
-      "title": "Byggnadsarbetare, sommarjobb, M Plåt & Fasad, Stockholm",
       "date": "2011",
-      "description": [
+      "language": [
         {
-          "id": 1,
-          "text": "Isolerade byggnaders fasad",
-          "workExpId": 4
+          "language_id": 0,
+          "title": "Byggnadsarbetare, sommarjobb, M Plåt & Fasad, Stockholm",
+          "description": [
+            {
+              "id": 1,
+              "text": "Isolerade byggnaders fasad",
+              "workExpId": 4
+            },
+            {
+              "id": 2,
+              "text": "Monterade hängrännor och stuprör",
+              "workExpId": 4
+            },
+            {
+              "id": 3,
+              "text": "Arbetade med tunnplåt i form av takplåt",
+              "workExpId": 4
+            }
+          ]
         },
         {
-          "id": 2,
-          "text": "Monterade hängrännor och stuprör",
-          "workExpId": 4
-        },
-        {
-          "id": 3,
-          "text": "Arbetade med tunnplåt i form av takplåt",
-          "workExpId": 4
+          "language_id": 1,
+          "title": "Construction worker, summer job, M Plåt & Fasad, Stockholm",
+          "description": [
+            {
+              "id": 1,
+              "text": "Building insulation",
+              "workExpId": 4
+            },
+            {
+              "id": 2,
+              "text": "Installation of drainpipes and gutter",
+              "workExpId": 4
+            },
+            {
+              "id": 3,
+              "text": "Worked with plate on the roof",
+              "workExpId": 4
+            }
+          ]
         }
       ]
     },
     {
       "id": 5,
-      "title": "Butiksmedarbetare, praktik, Siba AB, Stockholm",
       "date": "2011",
-      "description": [
+      "language": [
         {
-          "id": 1,
-          "text": "Sorterade och plockade varor från lager",
-          "workExpId": 5
+          "language_id": 0,
+          "title": "Butiksmedarbetare, praktik, Siba AB, Stockholm",
+          "description": [
+            {
+              "id": 1,
+              "text": "Sorterade och plockade varor från lager",
+              "workExpId": 5
+            },
+            {
+              "id": 2,
+              "text": "Hjälpte till i kassan",
+              "workExpId": 5
+            },
+            {
+              "id": 3,
+              "text": "Orienterade kunder",
+              "workExpId": 5
+            }
+          ]
         },
         {
-          "id": 2,
-          "text": "Hjälpte till i kassan",
-          "workExpId": 5
-        },
-        {
-          "id": 3,
-          "text": "Orienterade kunder",
-          "workExpId": 5
+          "language_id": 1,
+          "title": "Store employee, Internship, Siba AB, Stockholm",
+          "description": [
+            {
+              "id": 1,
+              "text": "Sorted and distributed merchandise from the warehouse to the store",
+              "workExpId": 5
+            },
+            {
+              "id": 2,
+              "text": "Helped at the cash register",
+              "workExpId": 5
+            },
+            {
+              "id": 3,
+              "text": "Helped customers",
+              "workExpId": 5
+            }
+          ]
         }
-        ]
+      ]
+
     },
     {
       "id": 6,
-      "title": "Butiksmedarbetare, praktik, M@trix Internet Café, Stockholm",
       "date": "2009",
-      "description": [
-          {
-            "id": 1,
-            "text": "Sorterade och plockade varor",
-            "workExpId": 6
-          },
-          {
-            "id": 2,
-            "text": "Hjälpte till i kassan",
-            "workExpId": 6
-          },
-          {
-            "id": 3,
-            "text": "Hjälpte kunder om det var något fel med deras dator",
-            "workExpId": 6
-          }
-        ]
-      }
+      "language": [
+        {
+          "language_id": 0,
+          "title": "Butiksmedarbetare, praktik, M@trix Internet Café, Stockholm",
+          "description": [
+            {
+              "id": 1,
+              "text": "Sorterade och plockade varor",
+              "workExpId": 6
+            },
+            {
+              "id": 2,
+              "text": "Hjälpte till i kassan",
+              "workExpId": 6
+            },
+            {
+              "id": 3,
+              "text": "Hjälpte kunder om det var något fel med deras dator",
+              "workExpId": 6
+            }
+          ]
+        },
+        {
+          "language_id": 1,
+          "title": "Store employee, Internship, M@trix Internet Café, Stockholm",
+          "description": [
+            {
+              "id": 1,
+              "text": "Sorted and distributed merchandise from the warehouse to the store",
+              "workExpId": 6
+            },
+            {
+              "id": 2,
+              "text": "Helped at the cash register",
+              "workExpId": 6
+            },
+            {
+              "id": 3,
+              "text": "Helped customers with their computers",
+              "workExpId": 6
+            }
+          ]
+        }
+      ]
+
+    }
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

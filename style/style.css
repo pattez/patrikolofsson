@@ -39,7 +39,7 @@ body > div, body > div > div {
 }
 
 .header .title {
-    width: 48%;
+    width: 10%;
     font-size: 1.1vw;
     float: left;
     padding-left: 2%;
@@ -85,6 +85,13 @@ body > div, body > div > div {
     display: inline-block;
     padding-right: 5%;
     cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 .header .menu li:hover {
@@ -168,7 +175,8 @@ body > div, body > div > div {
     height: 90%;
     width: 90%;
     background-size: cover;
-    background: no-repeat center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer {
@@ -199,6 +207,17 @@ body > div, body > div > div {
 
 }
 
+.globe {
+    height: 100%;
+    width: 20%;
+    float: left;
+    margin: -10px;
+}
+
+.globe img {
+    height: 100%;
+}
+
 .project {
     width: 100%;
     padding-bottom: 5%;
@@ -213,10 +232,14 @@ body > div, body > div > div {
     padding-top: 10px;
 }
 
-.project img {
+.project #img {
     width: 350px;
     height: 200px;
     padding-top: 30px;
+}
+
+#links {
+    padding-top: 1%;
 }
 
 hr {

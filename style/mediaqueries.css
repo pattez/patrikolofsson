@@ -96,7 +96,7 @@ and (max-width: 1139px) {
 
     .main .block .two .img {
         height: 75%;
-        width: 100%;
+        width: 80%;
         background: no-repeat center;
         background-size: cover;
     }
@@ -138,7 +138,7 @@ and (max-width: 1139px) {
     .experiences .block .inner .two .title {font-size: unset; }
     .experiences .block .inner .one .title {font-size: unset; }
 
-    .project img {
+    .project #img {
         width: 100%;
         height: 250px;
         padding-top: 30px;

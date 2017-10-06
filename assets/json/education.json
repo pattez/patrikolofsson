@@ -2,29 +2,63 @@
   "education": [
     {
       "id": 1,
-      "title": "Programutvecklare Java",
       "school": "Nackademin AB Yrkeshögskola",
       "date": "Aug 2015 – Jun 2017",
-      "description": [
+      "language": [
         {
-          "id": 1,
-          "text": "Data & IT. Kurser såsom programmering, webutveckling, databashantering med fokus i Java.",
-          "edId": 1
+          "language_id": 0,
+          "title": "Programutvecklare Java",
+          "description": [
+            {
+              "id": 1,
+              "text": "Data & IT. Kurser såsom programmering, webutveckling, databashantering med fokus i Java.",
+              "edId": 1
+            }
+          ]
+        },
+        {
+          "language_id": 1,
+          "title": "Java Developer",
+          "description": [
+            {
+              "id": 1,
+              "text": "Data & IT. Courses such as programming, web development, database management with focus in Java",
+              "edId": 1
+            }
+          ]
         }
       ]
     },
     {
       "id": 2,
-      "title": "Teknikprogrammet(TE), Information- och Medieteknik",
+
       "school": "Thorildsplans gymnasium",
       "date": "Aug 2011 - Jun 2014",
-      "description": [
+      "language":[
         {
-          "id": 1,
-          "text": "Data & IT. Kurser såsom programmering, webutveckling, nätverksteknik. Gymnasiearbete där jag gjorde ett dator-spel i XNA C#.",
-          "edId": 2
+          "language_id": 0,
+          "title": "Teknikprogrammet(TE), Information- och Medieteknik",
+          "description": [
+            {
+              "id": 1,
+              "text": "Data & IT. Kurser såsom programmering, webutveckling, nätverksteknik. Gymnasiearbete där Patrik gjorde ett dator-spel i XNA C#",
+              "edId": 2
+            }
+          ]
+        },
+        {
+          "language_id": 1,
+          "title": "Teknikprogrammet(TE), Information- och Medieteknik",
+          "description": [
+            {
+              "id": 1,
+              "text": "Data & IT. Courses such as programming, web development, network technologies. Work exam where Patrik made a PC game in XNA C#",
+              "edId": 2
+            }
+          ]
         }
       ]
+
     }
     ]
 }

@@ -2,33 +2,88 @@
   "project": [
     {
       "id": 5,
-      "title": "Space shooter",
-      "description": "På Thorildsplans gymnasium läste Patrik kurser såsom programmering. Därav utveckalde Patrik ett 2D-animerat spel som gymnasiearbete som skulle bidra till kunskaper inom programmering och planering.",
-      "url": "assets/img/Spaceshooter.png"
+      "language": [
+        {
+          "language_id": 0,
+          "title": "Space shooter",
+          "description": "På Thorildsplans gymnasium läste Patrik kurser såsom programmering. Därav utveckalde Patrik ett 2D-animerat spel som gymnasiearbete som skulle bidra till kunskaper inom programmering och planering."
+        },
+        {
+          "language_id": 1,
+          "title": "Space shooter",
+          "description": "When Patrik attended highschool 'Thorildsplans gymnasium', he had classes such as programming. Hence Patrik developed a 2D-animated PC game as his final exam work, which would help him develop programming and planning skills."
+        }
+      ],
+      "url": "assets/img/Spaceshooter.png",
+      "github_link": "https://github.com/pattez/Space-Shooter"
     },
     {
       "id": 4,
-      "title": "Activity Monitor",
-      "description": "Stressad, lat, glömsam eller helt enkelt vill ha saker och ting i ditt liv organiserat? Isåfall är Activity Monitor en app för dig! Activity Monitor låter dig spåra dina aktiviteter i ditt vardagliga liv",
-      "url": "assets/img/ActivityMonitor.png"
+      "language": [
+        {
+          "language_id": 0,
+          "title": "Activity Monitor",
+          "description": "Stressad, lat, glömsam eller helt enkelt vill ha saker och ting i ditt liv organiserat? Isåfall är Activity Monitor en app för dig! Activity Monitor låter dig spåra dina aktiviteter i ditt vardagliga liv"
+        },
+        {
+          "language_id": 1,
+          "title": "Activity Monitor",
+          "description": "Stressed, lazy, forgetful or want to have things abit more organised? If that's the case Activity Monitor is a app for you! Activity Monitor allows you to track your daily movements"
+        }
+      ],
+      "url": "assets/img/ActivityMonitor.png",
+      "github_link": "https://github.com/pattez/Activity-monitor"
     },
     {
       "id": 2,
-      "title": "https://patrikolofsson.se/old/ webbplats",
-      "description": "Patrik skapad webbplatsen för att ha ett online-portfolio!",
-      "url": "assets/img/hemsidabild.png"
+      "language": [
+        {
+          "language_id": 0,
+          "title": "https://patrikolofsson.se/old/ webbplats",
+          "description": "Patrik skapad webbplatsen för att ha ett online-portfolio!"
+        },
+        {
+          "language_id": 1,
+          "title": "https://patrikolofsson.se/old/ website",
+          "description": "Patrik created this website to have a online-portfolio!"
+        }
+      ],
+      "url": "assets/img/hemsidabild.png",
+      "github_link": "https://github.com/pattez/patrikolofsson.se-old-"
     },
     {
       "id": 3,
-      "title": "Jump and stuff - Grupp-projekt Nackademin Java 15, Spel utvecklat i JavaFX",
-      "description": "Jump and stuff är ett spel utvecklat i JavaFX, du använder piltangenterna för att hoppa och ducka. Du har tre liv och hastigheten ökar efter varje hinder! Målet är att få så högt poäng som möjligt!",
-      "url": "assets/img/gruppprojekt.png"
+      "language": [
+        {
+          "language_id": 0,
+          "title": "Jump and stuff - Grupp-projekt Nackademin Java 15, Spel utvecklat i JavaFX",
+          "description": "Jump and stuff är ett spel utvecklat i JavaFX, du använder piltangenterna för att hoppa och ducka. Du har tre liv och hastigheten ökar efter varje hinder! Målet är att få så högt poäng som möjligt!"
+        },
+        {
+          "language_id": 1,
+          "title": "Jump and stuff - Group-project Nackademin Java 15, Game developed in JavaFX",
+          "description": "Jump and stuff is a game created in JavaFX, use the arrow keys on your keyboard to jump and duck. You have three lives and the speed of the game increases after every obstacle. The goal is to get as many points as you can!"
+        }
+      ],
+      "url": "assets/img/gruppprojekt.png",
+      "github_link": "https://github.com/NackademinGroup3/GroupProject"
     },
     {
       "id": 1,
-      "title": "https://patrikolofsson.se/ webbplats",
-      "description": "Ny Portfolio variant. HTML, React.js, PHP, CSS.",
-      "url": "assets/img/patrikolofssonnew.jpg"
+      "language": [
+        {
+          "language_id": 0,
+          "title": "https://patrikolofsson.se/ webbplats",
+          "description": "Ny Portfolio variant. HTML, React.js, PHP, CSS."
+        },
+        {
+          "language_id": 1,
+          "title": "https://patrikolofsson.se/ website",
+          "description": "New Portfolio variation. HTML, React.js, PHP, CSS."
+        }
+      ],
+      "url": "assets/img/patrikolofssonnew.jpg",
+      "github_link": "https://github.com/pattez/patrikolofsson.se"
     }
   ]
 }
