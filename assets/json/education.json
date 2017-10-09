@@ -11,7 +11,7 @@
           "description": [
             {
               "id": 1,
-              "text": "Data & IT. Kurser såsom programmering, webutveckling, databashantering med fokus i Java.",
+              "text": "Data & IT. Kurser såsom programmering, webutveckling och databashantering med fokus i Java",
               "edId": 1
             }
           ]
@@ -22,7 +22,7 @@
           "description": [
             {
               "id": 1,
-              "text": "Data & IT. Courses such as programming, web development, database management with focus in Java",
+              "text": "Data & IT. Courses such as programming, web development and database management with a focus in Java",
               "edId": 1
             }
           ]
@@ -31,7 +31,6 @@
     },
     {
       "id": 2,
-
       "school": "Thorildsplans gymnasium",
       "date": "Aug 2011 - Jun 2014",
       "language":[
@@ -41,7 +40,12 @@
           "description": [
             {
               "id": 1,
-              "text": "Data & IT. Kurser såsom programmering, webutveckling, nätverksteknik. Gymnasiearbete där Patrik gjorde ett dator-spel i XNA C#",
+              "text": "Data & IT. Kurser såsom programmering, webutveckling och nätverksteknik",
+              "edId": 2
+            },
+            {
+              "id": 2,
+              "text": "Gymnasiearbete: Datorspel C# XNA 'Space shooter'",
               "edId": 2
             }
           ]
@@ -52,7 +56,12 @@
           "description": [
             {
               "id": 1,
-              "text": "Data & IT. Courses such as programming, web development, network technologies. Work exam where Patrik made a PC game in XNA C#",
+              "text": "Data & IT. Courses such as programming, web development and network technologies",
+              "edId": 2
+            },
+            {
+              "id": 2,
+              "text": "Final project: PC game C# XNA 'Space shooter'",
               "edId": 2
             }
           ]

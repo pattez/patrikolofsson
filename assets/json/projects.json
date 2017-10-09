@@ -5,13 +5,13 @@
       "language": [
         {
           "language_id": 0,
-          "title": "Space shooter",
-          "description": "På Thorildsplans gymnasium läste Patrik kurser såsom programmering. Därav utveckalde Patrik ett 2D-animerat spel som gymnasiearbete som skulle bidra till kunskaper inom programmering och planering."
+          "title": "Gymnasiearbete: Space shooter",
+          "description": "Space shooter är ett 2D animerat spel utvecklat i XNA C#. Du använder piltangenterna för att styra ditt rymdskepp samt mellanslag för att skjuta. Du måste flyga in i ammunition och liv objekten för att få tillgång till respektive attribut. Förstör fienderymdskeppen samt asteroiderna för att samla på dig så mycket poäng som möjligt!"
         },
         {
           "language_id": 1,
-          "title": "Space shooter",
-          "description": "When Patrik attended highschool 'Thorildsplans gymnasium', he had classes such as programming. Hence Patrik developed a 2D-animated PC game as his final exam work, which would help him develop programming and planning skills."
+          "title": "High school, final project: Space shooter",
+          "description": "Space shooter is a 2D animated PC game developed in XNA C#. Use the arrow keys on your keyboard to manage your spaceship and spacebar to shoot. You'll have to fly into the ammunition and life objects to gain their respective attributes. Destroy the enemy spaceships and asteroids to collect as many points as possible!"
         }
       ],
       "url": "assets/img/Spaceshooter.png",
@@ -28,7 +28,7 @@
         {
           "language_id": 1,
           "title": "Activity Monitor",
-          "description": "Stressed, lazy, forgetful or want to have things abit more organised? If that's the case Activity Monitor is a app for you! Activity Monitor allows you to track your daily movements"
+          "description": "Stressed, lazy, forgetful or want to have things abit more organised? If that's the case Activity Monitor is an app for you! Activity Monitor allows you to track your daily movements"
         }
       ],
       "url": "assets/img/ActivityMonitor.png",
@@ -40,12 +40,12 @@
         {
           "language_id": 0,
           "title": "https://patrikolofsson.se/old/ webbplats",
-          "description": "Patrik skapad webbplatsen för att ha ett online-portfolio!"
+          "description": "Första versionen av portfolio webbplatsen"
         },
         {
           "language_id": 1,
           "title": "https://patrikolofsson.se/old/ website",
-          "description": "Patrik created this website to have a online-portfolio!"
+          "description": "First version of the portfolio website"
         }
       ],
       "url": "assets/img/hemsidabild.png",
@@ -74,15 +74,15 @@
         {
           "language_id": 0,
           "title": "https://patrikolofsson.se/ webbplats",
-          "description": "Ny Portfolio variant. HTML, React.js, PHP, CSS."
+          "description": "Senaste versionen av portfolio webbplatsen. HTML, React.js, PHP, CSS"
         },
         {
           "language_id": 1,
           "title": "https://patrikolofsson.se/ website",
-          "description": "New Portfolio variation. HTML, React.js, PHP, CSS."
+          "description": "Latest version of the portfolio website. HTML, React.js, PHP, CSS"
         }
       ],
-      "url": "assets/img/patrikolofssonnew.jpg",
+      "url": "assets/img/website_new.jpg",
       "github_link": "https://github.com/pattez/patrikolofsson.se"
     }
   ]

@@ -2,7 +2,7 @@
   "workExperience": [
     {
       "id": 1,
-      "date": "2017",
+      "date": "Jan 2017 - April 2017",
       "language": [
         {
           "language_id": 0,
@@ -70,7 +70,7 @@
     },
     {
       "id": 2,
-      "date": "2016",
+      "date": "Aug 2016 - Nov 2016",
       "language": [
         {
           "language_id": 0,
@@ -128,15 +128,15 @@
     },
     {
       "id": 3,
-      "date": "2015",
+      "date": "2015-2017",
       "language": [
         {
           "language_id": 0,
-          "title": "Lärarvikarie, anställning vid behov, Sensus Studieförbund, Stockholm",
+          "title": "Lärarvikarie, Sensus Studieförbund, Stockholm",
           "description": [
             {
               "id": 1,
-              "text": "Vikarierade vid behov som datalärare för människor med nedsatt syn",
+              "text": "Vikarierade som datalärare för människor med nedsatt syn",
               "workExpId": 3
             },
             {
@@ -153,11 +153,11 @@
       },
       {
         "language_id": 1,
-        "title": "Substitute teacher, temporary employment when needed, Sensus Studieförbund, Stockholm",
+        "title": "Substitute teacher, Sensus Studieförbund, Stockholm",
         "description": [
           {
             "id": 1,
-            "text": "Temporary employed when needed as a substitute teacher for a computer class for people with low vision",
+            "text": "Substitute teacher for a computer class for people with low vision",
             "workExpId": 3
           },
           {
@@ -176,11 +176,11 @@
     },
     {
       "id": 4,
-      "date": "2011",
+      "date": "Jun 2011 - Aug 2011",
       "language": [
         {
           "language_id": 0,
-          "title": "Byggnadsarbetare, sommarjobb, M Plåt & Fasad, Stockholm",
+          "title": "Byggnadsarbetare, M Plåt & Fasad, Stockholm",
           "description": [
             {
               "id": 1,
@@ -201,7 +201,7 @@
         },
         {
           "language_id": 1,
-          "title": "Construction worker, summer job, M Plåt & Fasad, Stockholm",
+          "title": "Construction worker, M Plåt & Fasad, Stockholm",
           "description": [
             {
               "id": 1,
@@ -224,7 +224,7 @@
     },
     {
       "id": 5,
-      "date": "2011",
+      "date": "Mar 2011 - April 2011",
       "language": [
         {
           "language_id": 0,
@@ -273,7 +273,7 @@
     },
     {
       "id": 6,
-      "date": "2009",
+      "date": "Okt 2009 - Nov 2009",
       "language": [
         {
           "language_id": 0,

@@ -8,7 +8,10 @@ function diff(ary) {
     return newA;
 }
 
+
 var dev = false;
+
+
 
 var Application = React.createClass({
     getInitialState: function () {
@@ -59,7 +62,7 @@ var Header = React.createClass({
         e.preventDefault();
         let i = this.props.language;
         i = i === 1 ? 0 : 1;
-      console.log(i);
+      //console.log(i);
       this.props.setLanguage(i);
         var mq = window.matchMedia("(max-width:1139px)");
         if(mq.matches) {
@@ -69,7 +72,7 @@ var Header = React.createClass({
         }
     },
     render: function () {
-        console.log(this.props.language);
+       // console.log(this.props.language);
         var path = "assets/img/laptop3.jpeg";
         var style = {backgroundImage: "url("+path+")"};
         var title = "";
@@ -144,7 +147,7 @@ var Header = React.createClass({
         }
         return (
          <div className="header" style={style}>
-             <div className="topBar">
+             <div className="topBar" id="top_bar">
                  <div className="title">{name}</div>
                  <div className="respmenu" id="respmenu">
                      <div className="hamburger" id="hamburger" onClick={this.responsiveHeader}> <img id="icon_menu" src="assets/img/1496606738_menu-alt.svg"/></div>
@@ -312,7 +315,7 @@ var Experiences = React.createClass({
                 this.setState({educations: data}, function () {
                    /* console.log("Projects: ",this.state.educations);*/
                     $(".education #title").css("color", "black");
-                    $(".education #title").css("cursor", "none");
+                   // $(".education #title").css("cursor", "none");
                 });
 
             }.bind(this),
@@ -658,3 +661,4 @@ ReactDOM.render(
     <Application/>,
     document.getElementById('application')
 );
+
