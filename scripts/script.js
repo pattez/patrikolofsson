@@ -15,3 +15,15 @@ $(document).scroll(function () {
     }
 
 });
+
+
+function mobileHeaderFix() {
+    let mq = window.matchMedia("(min-width:1139px)");
+    if(mq.matches) {
+        let div = document.getElementById('mobile_menu');
+        div.style.display = "none";
+    }
+}
+
+
+window.addEventListener("resize", mobileHeaderFix, false);
